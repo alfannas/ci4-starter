@@ -11,9 +11,11 @@ Codeigniter 4 Starter.
 ## Installation & updates
 
 1. `composer update`
-2. `php spark migrate -all`
 
 ## Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+1. setup base url
+2. create database
+3. setup database using `.env`
+4. run migration `php spark migrate -all`
+
